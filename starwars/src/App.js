@@ -35,7 +35,7 @@ const App = () => {
       <h1 className="Header">Characters</h1>
       <CharacterContainer>
       {
-        person.map((info, index) => {
+        character.map((info, index) => {
           return (
             <Character
               key={index}
