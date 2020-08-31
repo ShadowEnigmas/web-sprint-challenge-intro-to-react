@@ -3,12 +3,13 @@ import styled from 'styled-components';
 
 const Card = styled.div`
 height: 500px;
+color: darkblue;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 overflow: hidden;
-border: 2px solid darkgrey;`
+border: 2px solid black;`
 
 const Character = (props) => {
     return (
