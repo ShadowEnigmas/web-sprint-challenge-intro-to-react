@@ -2,8 +2,6 @@ import React from "react";
 import styled from 'styled-components';
 
 const Card = styled.div`
-height: 400px;
-width: 250px;
 color: darkblue;
 display: flex;
 justify-content: center;

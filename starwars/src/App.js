@@ -8,7 +8,8 @@ const CharacterContainer = styled.div`
   margin: 2% 2%;
   display: grid;
   grid-gap: 100px;
-  grid-template-columns: repeat(auto-fit), minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit);
+  grid-template-rows: repeat(auto-fit);
 `;
 
 const App = () => {
