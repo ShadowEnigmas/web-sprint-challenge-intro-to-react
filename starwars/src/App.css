@@ -2,9 +2,9 @@
   text-align: center;
 }
 .Header {
-  /* color: #443e3e; */
+  color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
   font-size: 4.2rem;
-  margin: 3% 0 3%;
+  margin: 3%;
 }
 /* write your parent styles in here for your App.js */

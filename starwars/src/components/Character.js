@@ -2,7 +2,8 @@ import React from "react";
 import styled from 'styled-components';
 
 const Card = styled.div`
-height: 500px;
+height: 400px;
+width: 250px;
 color: darkblue;
 display: flex;
 justify-content: center;
@@ -27,7 +28,8 @@ const Character = (props) => {
                 <p>Films: {props.films}</p>
                 <p>Species: {props.species}</p>
                 <p>Vehicles: {props.vehicles}</p>
-                <p>Starships: {props.starships}</p> */}
+                <p>Starships: {props.starships}</p>
+                This code doesn't render text, just urls*/}
             </div>
         </Card>
     )
