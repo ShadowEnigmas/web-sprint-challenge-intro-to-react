@@ -22,11 +22,11 @@ const Character = (props) => {
                 <p>Eye Color: {props.eyeColor}</p>
                 <p>Born in: {props.birthYear}</p>
                 <p>Gender: {props.gender}</p>
-                <p>Homeworld: {props.homeworld}</p>
+                {/* <p>Homeworld: {props.homeworld}</p>
                 <p>Films: {props.films}</p>
                 <p>Species: {props.species}</p>
                 <p>Vehicles: {props.vehicles}</p>
-                <p>Starships: {props.starships}</p>
+                <p>Starships: {props.starships}</p> */}
             </div>
         </Card>
     )
